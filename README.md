@@ -30,7 +30,7 @@ User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (My
 *Description: DB tables & sample queries used to verify `my_app_db`.*
 
 ## Project docs
-- Full project documentation: [docs/project-doc.pdf]()
+- Full project documentation: <img width="691" height="819" alt="project documentation" src="https://github.com/user-attachments/assets/15d1b071-d8bf-46e6-b6d9-f5cb98b63500" />
 
 ## How to run (local / quick)
 1. Clone repo: `git clone https://github.com/umarshaikh36/docker-nodejs-rds-aws.git`
