@@ -6,8 +6,6 @@ This repository contains architecture diagrams, screenshots, deployment steps an
 
 ## Architecture
 <img src="<img width="1536" height="1024" alt="Dockerized Node js contact app on EC2 with MySQL RDS (AWS))" src="https://github.com/user-attachments/assets/3b95387c-59a2-4376-88ef-163373853c65" />
-" alt="Architecture diagram: User → EC2 (Docker) → RDS MySQL with snapshots" width="800"/>
-
 **High level flow**:  
 User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (MySQL). RDS snapshot used for backup.
 
@@ -19,7 +17,7 @@ User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (My
 
 ### RDS Console
 ![RDS Console]<img width="1920" height="1020" alt="screenshot-rds-console png" src="https://github.com/user-attachments/assets/fef2dc44-bc5f-4586-8315-d0476780589c" />
-![RDS Console],img width="900" height="1000" alt="<img width="1920" height="1020" alt="screenshot-rds-console png (3)" src="https://github.com/user-attachments/assets/af01c4f4-1a39-42a5-9fd9-400fd577d507" />
+![RDS Console],<img width="1920" height="1020" alt="screenshot-rds-console png (3)" src="https://github.com/user-attachments/assets/af01c4f4-1a39-42a5-9fd9-400fd577d507" />
 
 
 *Description: RDS instance details and snapshot list.*
