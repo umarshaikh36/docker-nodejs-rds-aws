@@ -25,7 +25,7 @@ User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (My
 *Description: RDS instance details and snapshot list.*
 
 ### MySQL Query / Database
-![MySQL Queries](<img width="1920" height="1020" alt="screenshot-mysql png" src="https://github.com/user-attachments/assets/68ee054f-7f23-4487-8749-9639d14ba479" />)
+![MySQL Queries]<img width="1920" height="1020" alt="screenshot-mysql png" src="https://github.com/user-attachments/assets/68ee054f-7f23-4487-8749-9639d14ba479" />
 
 *Description: DB tables & sample queries used to verify `my_app_db`.*
 
