@@ -5,7 +5,8 @@ A demo project showing a Dockerized Node.js contact application running on an EC
 This repository contains architecture diagrams, screenshots, deployment steps and project documentation.
 
 ## Architecture
-<img src="docs/architecture.png" alt="Architecture diagram: User → EC2 (Docker) → RDS MySQL with snapshots" width="800"/>
+<img src="<img width="1536" height="1024" alt="Dockerized Node js contact app on EC2 with MySQL RDS (AWS))" src="https://github.com/user-attachments/assets/3b95387c-59a2-4376-88ef-163373853c65" />
+" alt="Architecture diagram: User → EC2 (Docker) → RDS MySQL with snapshots" width="800"/>
 
 **High level flow**:  
 User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (MySQL). RDS snapshot used for backup.
@@ -17,15 +18,19 @@ User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (My
 *Description: Application add/show contacts page.*
 
 ### RDS Console
-![RDS Console](docs/screenshot2.png)
+![RDS Console]<img width="1920" height="1020" alt="screenshot-rds-console png" src="https://github.com/user-attachments/assets/fef2dc44-bc5f-4586-8315-d0476780589c" />
+![RDS Console],img width="900" height="1000" alt="<img width="1920" height="1020" alt="screenshot-rds-console png (3)" src="https://github.com/user-attachments/assets/af01c4f4-1a39-42a5-9fd9-400fd577d507" />
+
+
 *Description: RDS instance details and snapshot list.*
 
 ### MySQL Query / Database
-![MySQL Queries](docs/screenshot3.png)
+![MySQL Queries](<img width="1920" height="1020" alt="screenshot-mysql png" src="https://github.com/user-attachments/assets/68ee054f-7f23-4487-8749-9639d14ba479" />)
+
 *Description: DB tables & sample queries used to verify `my_app_db`.*
 
 ## Project docs
-- Full project documentation: [docs/project-doc.pdf](docs/project-doc.pdf)
+- Full project documentation: [docs/project-doc.pdf]()
 
 ## How to run (local / quick)
 1. Clone repo: `git clone https://github.com/umarshaikh36/docker-nodejs-rds-aws.git`
