@@ -12,7 +12,8 @@ User (browser) → EC2 (Docker container running Node.js app) → Amazon RDS (My
 
 ## Screenshots
 ### App UI
-![App UI](docs/screenshot1.png)
+![App UI]<img width="1920" height="1020" alt="screenshot-app-ui png" src="https://github.com/user-attachments/assets/67ea9a6f-e0f5-4022-9a94-5516b53eb734" />
+
 *Description: Application add/show contacts page.*
 
 ### RDS Console
